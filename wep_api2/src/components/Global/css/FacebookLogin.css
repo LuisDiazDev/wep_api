@@ -9,19 +9,19 @@
     position: relative;
     float: right;
     height: 7vmin;
-    top: 15px;
+    top: 9px;
     right: 60px;
 }
 .boton{
     position: relative;
-    top: 30px;
-    left: 180px;
+    top: 10px;
+    left: -8px;
     float: right;
 }
 
 .butonS{
     position: relative;
     top: 30px;
-    left: 180px;
+    left: 60px;
     float: right;
 }

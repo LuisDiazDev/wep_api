@@ -10,7 +10,7 @@
     height: 8vmin;
     float: left;
     position: relative;
-    top: 10px;
+    top: 9px;
 }
 
 .datos{
@@ -22,7 +22,7 @@
 
 .Header{
     position: relative;
-    top: -20px;
+    top: -11px;
 }
 
 @keyframes App-logo-spin {
