@@ -1,0 +1,35 @@
+
+.Logo {
+    background-color: #282c34;
+    min-height: 10vh;
+    font-size: calc(2px + 1vmin);
+}
+
+.img{
+    animation: App-logo-spin infinite 20s linear;
+    height: 8vmin;
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+.datos{
+    color: antiquewhite;
+    position: relative;
+    top: 20px;
+
+}
+
+.Header{
+    position: relative;
+    top: -20px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

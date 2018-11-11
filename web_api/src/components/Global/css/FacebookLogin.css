@@ -1,0 +1,27 @@
+.nombre{
+    color: aliceblue;
+    float: right;
+    position: relative;
+    right: 30px;
+}
+
+.fotoPerfil{
+    position: relative;
+    float: right;
+    height: 7vmin;
+    top: 15px;
+    right: 60px;
+}
+.boton{
+    position: relative;
+    top: 30px;
+    left: 180px;
+    float: right;
+}
+
+.butonS{
+    position: relative;
+    top: 30px;
+    left: 180px;
+    float: right;
+}
