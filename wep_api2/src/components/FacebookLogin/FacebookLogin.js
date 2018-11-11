@@ -83,9 +83,11 @@ class FacebookLogin extends Component {
         if (this.state.logeado) {
             return (
                 <div>
-                    <p className="nombre"> Bienvenido {this.state.name}</p>
+                    <h6 className="nombre"> Bienvenido {this.state.name}</h6>
                     <img className="fotoPerfil" src={this.state.picture} alt="fotoPerfil"/>
-                    <button onClick={this.cerrarSession} className="butonS">salir</button>
+                    <div className="butonS">
+                        <button onClick={this.cerrarSession} className="btn btn-primary">salir</button>
+                    </div>
                 </div>
             );
         } else {

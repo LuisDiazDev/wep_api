@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './css/Content.css';
 import PropTypes from 'prop-types';
 
-import ChatRooms from '../ChatRooms/ChatRooms.js'
+import Login from '../Login/Login'
 
 class Content extends Component {
     static propTypes = {
@@ -13,11 +13,8 @@ class Content extends Component {
         const {body} = this.props;
         return (
             <div className="Content">
-                <div>
-                    <h1>Area de Chats</h1>
-                </div>
-                <ChatRooms/>
                 {body}
+                <Login/>
             </div>
         );
     }

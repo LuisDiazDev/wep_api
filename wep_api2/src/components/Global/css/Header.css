@@ -1,7 +1,7 @@
 
 .Logo {
     background-color: #282c34;
-    min-height: 10vh;
+    min-height: 15vh;
     font-size: calc(2px + 1vmin);
 }
 
@@ -10,13 +10,13 @@
     height: 8vmin;
     float: left;
     position: relative;
-    top: 9px;
+    top: 25px;
 }
 
 .datos{
     color: antiquewhite;
     position: relative;
-    top: 20px;
+    top: 25px;
 
 }
 

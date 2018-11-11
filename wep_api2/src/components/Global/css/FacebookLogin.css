@@ -2,14 +2,15 @@
     color: aliceblue;
     float: right;
     position: relative;
-    right: 30px;
+    right: 325px;
+    top: 25px;
 }
 
 .fotoPerfil{
     position: relative;
     float: right;
     height: 7vmin;
-    top: 9px;
+    top: 25px;
     right: 60px;
 }
 .boton{
