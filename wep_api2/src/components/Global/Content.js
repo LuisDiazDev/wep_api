@@ -3,6 +3,7 @@ import './css/Content.css';
 import PropTypes from 'prop-types';
 
 import Login from '../Login/Login'
+import FileUpload from '../FileUpload/FileUpload'
 
 class Content extends Component {
     static propTypes = {
@@ -15,6 +16,7 @@ class Content extends Component {
             <div className="Content">
                 {body}
                 <Login/>
+                <FileUpload/>
             </div>
         );
     }
