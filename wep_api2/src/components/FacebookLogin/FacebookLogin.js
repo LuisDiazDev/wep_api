@@ -71,12 +71,6 @@ class FacebookLogin extends Component {
 
     cerrarSession(e){
         console.log("saliendo...");
-        window.FB.logout(response => {
-            alert("gracias por preferirnos");
-            this.setState({
-                logeado: false
-            });
-        });
     }
 
     showPersonalData() {
